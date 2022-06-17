@@ -1,0 +1,12 @@
+Create a class called "StringCalculator" that has a method called "Add" 
+that takes a string of numbers separated by commas and returns the sum of the numbers.
+
+______________________________________________________
+int Add (string numbers)
+______________________________________________________
+
+    -Create a method called "Add" that takes a string of numbers separated by commas or whitespaces and returns the sum of the numbers.
+    -If the string is empty or null, return 0.
+    -If the string contains any non-numeric characters, throw an ArgumentException.
+    -If the string contains more than one number, return the sum of the numbers.
+    -If the string contains a single number, return that number.
